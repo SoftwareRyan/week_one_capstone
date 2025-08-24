@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* body background color */
+body {
+  background-color: #000000;
+}
+/* paragrpah font size */
+p {
+  font-size: 16px;
+}
+/* finn colors */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* header styles and font type */
+.header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #404040;
+  color: #ffffff;
+}
+/* header h1 font size and type */
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+/* header h1 span color */
+.header h1 .seo {
+  color: #ffcc02;
+}
+/* header div margins and font type plus padding */
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+/* header unordered list style */
+.header div ul {
+  list-style-type: none;
+}
+/* unordered list */
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+/* hero image */
+.hero-img {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/ashenWastes.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* float images left and right with margin */
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+/* float images right with margin */
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+/* content display type and width */
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* info section margin bottom and padding */
+.items {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #404040;
+}
+/* item sections margin bottom and color */
+.item-golden-sun {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+/* frost bite chest margins and color */
+.item-frostbite-chest {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+/* mystic chest margins and color */
+.item-mystic-chest {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+/* gold sun and h3 center and margin bottom */
+.item-golden-sun h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* frost bite chest margins and color */
+.item-frostbite-chest h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* mystic chest margins and color */
+.item-mystic-chest h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* gold sun chest image size and margin */
+.item-golden-sun img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+/* frost bite chest image size and margin */
+.item-frostbite-chest img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+/* mystic chest image size and margin */
+.item-mystic-chest img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+/* footer styles and font type and color */
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+/* footer h2 font size */
+.footer h2 {
+  font-size: 20px;
+}
+/* dragons margin and padding and height and font type and color */
+#dragons {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #404040;
+  color: #ffffff;
+}
+/* humans margin and padding and height and font type and color */
+#humans {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #404040;
+  color: #ffffff;
+}
+/* locations margin and padding and height and font type and color */
+#locations {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #404040;
+  color: #ffffff;
+}
+/* dragons max height */
+#dragons img {
+  max-height: 200px;
+}
+/* humans max height */
+#humans img {
+  max-height: 200px;
+}
+/* locations max height */
+#locations img {
+  max-height: 200px;
+}
+/* dragons and h2 font size and margin /*
+#dragons h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+/* humans and h2 font size and margin */
+#humans h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+/* h2 font size and margin */
+#locations h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
